@@ -1,5 +1,11 @@
 # BishopAI
 
+------------
+
+BishopAI has been succeeded by the [knAIghtedBishop](https://github.com/dmilin1/knAIghtedBishop) project.
+
+------------
+
 BishopAI is a flexible software suite capable of generating machine learning models and using them to solve 2 player, sequential, [perfect information](https://en.wikipedia.org/wiki/Perfect_information "perfect information") games. The included models are capable of playing Chess and Connect4 at an above average level.
 
 Networks can be trained in two ways. The first is with a dataset of preplayed games, as is used in the Chess model. The chess model was trained for around 30 minutes on roughly 160,000 preplayed games. The second is with self play, as is used in the Connect 4 model. The included level 3 model Connect 4 was trained over roughly 1 week on an Nvidia GTX 1080 Ti.
